@@ -1,0 +1,26 @@
+{
+  "name": "react-notify",
+  "version": "0.1.0",
+  "description": "A mixin to notify the top level component.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "author": "caasi Huang",
+  "homepage": "https://github.com/caasi/react-notify-mixin/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caasi/react-notify-mixin.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^0.12.2"
+  }
+}
