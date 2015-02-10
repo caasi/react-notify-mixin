@@ -19,13 +19,6 @@ MyComp = React.createClass({
 MyComp = React.createFactory(MyComp);
 
 MyApp = React.createClass({
-  getDefaultProps: function () {
-    return {
-      onNotify: function (msg) {
-        alert(msg);
-      }
-    };
-  },
   render: function () {
     return div({},
              div({},
@@ -39,6 +32,6 @@ MyApp = React.createClass({
 MyApp = React.createFactory(MyApp);
 
 React.render(
-  MyApp({}),
+  MyApp({ onNotify: alert }),
   document.getElementById('app')
 );
