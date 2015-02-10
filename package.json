@@ -1,5 +1,5 @@
 {
-  "name": "react-notify",
+  "name": "react-notify-mixin",
   "version": "0.1.0",
   "description": "A mixin to notify the top level component.",
   "main": "index.js",
